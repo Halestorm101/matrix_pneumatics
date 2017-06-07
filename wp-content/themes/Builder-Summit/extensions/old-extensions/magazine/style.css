@@ -1,0 +1,48 @@
+/*
+Name: Magazine
+
+This Extension is best used on blog listings
+*/
+
+.thumbnail-wrap {
+	display: block !important;
+	float: left;
+	margin: 5px;
+}
+.hentry {
+	background: #FFFFFF url('images/magazine_bg.jpg') no-repeat bottom right;
+	clear: none;
+	float: left;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 50%;
+}
+.builder-view-singular .hentry {
+	padding-bottom: 1em;
+	float: none;
+	width: auto;
+}
+.hentry .entry-meta {
+	display: none;
+}
+.hentry .entry-title {
+	margin: 1em;
+}
+.hentry .entry-footer {
+	display: none !important;
+	margin: 1em !important;
+}
+.hentry .entry-content {
+	margin: 1em;
+}
+.hentry a.readmorelink {
+	background: #CCCCCC url('images/readmore.gif') no-repeat top center;
+	float: right;
+	margin: 1em;
+	width: 75px;
+	height: 22px;
+}
+.hentry a.readmorelink span {
+	display: none;
+}

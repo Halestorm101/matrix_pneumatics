@@ -1,0 +1,98 @@
+.builder-module-element {
+	padding-bottom: 3em;
+}
+.single .builder-module-element {
+	padding-bottom: 0;
+}
+.builder-module-widget-bar .widget-background-wrapper {
+	margin-right: 0;
+}
+.left .builder-module-sidebar-with-element .widget-background-wrapper:last-child {
+	margin-bottom: 3em;
+}
+
+/* Search Form */
+@media only screen and ( max-width:839px ) and ( min-width:666px ) {
+	#searchform input[type="text"] {
+		border-radius: 3px;
+		width: 100%;
+	}
+	
+	#searchform input[type="submit"] {
+		border-radius: 3px;
+		position: relative;
+		margin: 10px 0 0 0;
+		width: 100%;
+	}
+}
+
+/* Sidebar Widgets */
+.builder-module-sidebar .widget-section-wrapper .left .widget-background-wrapper {
+	margin-right: 0;
+	margin-left: 0;
+}
+.builder-module-sidebar .widget-section-wrapper .right .widget-background-wrapper {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* Header Module */
+.builder-module-header .right .builder-module-element,
+.builder-module-header .middle .builder-module-element {
+	padding-top: 3em;
+}
+
+/* Navigation Module */
+.site-text {
+	text-align: center;
+}
+
+.builder-module-navigation-menu-wrapper, .nav-with-logo .builder-module-element .builder-module-navigation-menu-wrapper {
+	display: table;
+	margin: 0 auto;
+	vertical-align: inherit;
+	width: auto;
+}
+
+.nav-with-logo .builder-module-element ul.menu {
+	float: left;
+	margin-top: 20px;
+}
+
+/* Content Module */
+.builder-module-content .right .builder-module-element,
+.builder-module-content .middle .builder-module-element {
+	padding-top: 3em;
+}
+.builder-module-content .right .loop,
+.builder-module-content .middle .loop {
+	padding-top: 3em;
+}
+
+
+/* HTML Module */
+.builder-module-html .right .builder-module-element,
+.builder-module-html .middle .builder-module-element {
+	padding-top: 3em;
+}
+
+.large-text-blue-background-html-background-wrapper {
+	font-size: 1.5em;
+}
+
+.builder-module-background-wrapper .builder-module-outer-wrapper.large-text-blue-background-html-outer-wrapper {
+	padding: 1.5em 0;
+}
+
+/* Image Module */
+.image-full-window-background-wrapper {
+	padding-left: 0;
+	padding-right: 0;	
+}
+
+
+/* Footer Module */
+.builder-module-footer .right .builder-module-element,
+.builder-module-footer .middle .builder-module-element {
+	padding-top: 3em;
+}

@@ -1,0 +1,35 @@
+/*
+Name: Magazine Layout
+Description: Displays Featured Image, Post Title and Excerpt in a grid layout.
+*/
+
+.builder-module-content .magazine-extension {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 5em;
+	padding: 1em;
+}
+.builder-module-content .magazine-extension:nth-child(3n) {
+	margin-right: 0;
+}
+.builder-module-content .magazine-extension:nth-child(3n+1) {
+	clear: both;
+}
+.builder-module-content .magazine-extension .it-featured-image a {
+	margin: 0;
+}
+.builder-module-content .magazine-extension .it-featured-image img {
+	margin: 0 0 1em 0;
+}
+.builder-module-content .magazine-extension .entry-header {
+	margin-bottom: 1.5em;
+}
+.builder-module-content .magazine-extension .entry-title {
+	font-size: 2em;
+}
+.builder-module-content .magazine-extension .entry-meta-wrapper {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: .9em;
+}

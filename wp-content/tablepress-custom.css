@@ -1,0 +1,12 @@
+.tablepress tfoot th,
+.tablepress thead th {
+	background-color: #1d437d;
+	font-weight: 700;
+	vertical-align: middle;
+	color: #ffffff;
+}
+
+.tablepress td,
+.tablepress th {
+	padding: 3px 10px;
+}

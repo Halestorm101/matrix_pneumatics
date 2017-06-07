@@ -1,0 +1,119 @@
+/*
+Name: Summit Featured Posts
+Description: Displays the latest post or the sticky post with a large featured image to one side and the title and post excerpt with a link on the other side. <br /><strong><em>Not intended for use with a content module that has any variation of a sidebar set</em></strong>.
+*
+*/
+
+.summit-featured-post-enabled .builder-module-content-background-wrapper {
+	padding: 0;
+}
+
+.summit-featured-post-enabled .builder-module-content-last-outer-wrapper, #ie8 .summit-featured-post-enabled .builder-module-content-last-outer-wrapper {
+	max-width: none !important;
+	padding: 0 !important;
+}
+
+#ie8 .summit-featured-post-enabled .builder-module-content-last-outer-wrapper {
+	width: auto !important;
+}
+
+.hentry.summit-featured-post {
+	position: relative;
+	padding: 0;
+	border: 0;
+	border-top: 5px solid #4A90E2;
+}
+
+.hentry.summit-featured-post .it-featured-image {
+	float: left;
+	width: 40%;
+	border-bottom: none;
+	text-align: left;
+}
+
+.hentry.summit-featured-post .it-featured-image-landscape {
+	display: none;
+}
+
+.hentry.summit-featured-post .it-featured-image a {
+	margin: 0;
+}
+
+.hentry.summit-featured-post .it-featured-text {
+	position: absolute;
+	top: 50%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	width: 60%;
+	float: left;
+	padding: 20px;
+}
+
+#ie8 .hentry.summit-featured-post .it-featured-text {
+	position: relative;
+	top: auto;
+	left: auto;
+}
+
+.hentry.summit-featured-post .entry-title {
+	font-size: 2em;
+	margin-bottom: 40px;
+}
+
+.hentry.summit-featured-post .short-excerpt {
+		display: none;
+}
+
+.hentry.summit-featured-post p {
+	margin-bottom: 40px;
+}
+
+@media only screen and ( max-width: 1200px ) {
+	
+	.hentry.summit-featured-post .entry-title, .hentry.summit-featured-post p, .hentry.summit-featured-post .btn {
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and ( max-width: 1080px ) {
+	.hentry.summit-featured-post .it-featured-text {
+/*
+		position: relative;
+		top: inherit;
+		left: inherit;
+		transform: inherit;
+*/
+		font-size: .9em;
+	}
+	
+	.hentry.summit-featured-post .regular-excerpt {
+		display: none;
+	}
+	
+	.hentry.summit-featured-post .short-excerpt {
+		display: block;
+	}
+}
+
+@media only screen and ( max-width: 800px ) {
+	.hentry.summit-featured-post .it-featured-image {
+		display: none;
+	}
+	.hentry.summit-featured-post .it-featured-image-landscape {
+		display: block;
+	}
+	
+	.hentry.summit-featured-post .it-featured-text {
+		position: relative;
+		top: inherit;
+		left: inherit;
+		transform: inherit;
+		-ms-transform: inherit;
+		-webkit-transform: inherit;
+		float: none;
+		width: 100%;
+	}
+}
+

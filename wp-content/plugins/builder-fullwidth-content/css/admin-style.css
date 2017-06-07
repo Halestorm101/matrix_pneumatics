@@ -1,0 +1,7 @@
+#builder-fullwidth-content .input-small {
+    width: 15px;
+}
+
+#builder-fullwidth-content input[type="text"] {
+    text-align: center;
+}

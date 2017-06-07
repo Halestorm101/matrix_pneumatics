@@ -1,0 +1,1267 @@
+/*********************************************
+	Store
+*********************************************/
+
+.exchange-store .builder-module-content .hentry {
+	background: none;
+	border: none;
+}
+
+.exchange-store .builder-module-content h1.entry-title {
+	display: none;
+}
+
+#it-exchange-store .it-exchange-products li:nth-child(n) {
+	list-style: none;
+	display: block;
+	float: left;
+	width: 30%;
+	margin: 0 5% 5em 0;
+	vertical-align: top;
+	clear: none;
+}
+#it-exchange-store .it-exchange-products li:nth-child(3n+1) {
+	clear: both;
+}
+#it-exchange-store .it-exchange-products li:nth-child(3n+3) {
+	margin-right: 0;
+	clear: none;
+}
+
+#it-exchange-store .it-exchange-product-feature-image {
+	display: block;
+	text-align: center;
+	border-bottom: 5px solid #4A90E2;
+}
+#it-exchange-store .it-exchange-product-details {
+	background: #FFF;
+	border: 1px solid #EBEBEB;
+	padding: 2em;
+}
+#it-exchange-store .it-exchange-product-title {
+	margin: 0;
+}
+#it-exchange-store .it-exchange-base-price {
+	float: none;
+	font-weight: bold;
+	font-size: 1.5em;
+	display: block;
+	margin-top: .5em;
+}
+#it-exchange-store .it-exchange-product-permalink {
+	float: none;
+	font-weight: bold;
+	font-size: .8em;
+	line-height: 1;
+	margin-top: 1em;
+	display: block;
+	color: #A9ADB1;
+	text-transform: uppercase;
+}
+
+#it-exchange-store .it-exchange-product-permalink:hover, #it-exchange-store .it-exchange-product-permalink:focus {
+	color: #4A90E2;
+}
+
+/*********************************************
+	Product Page
+*********************************************/
+
+/* Title */
+.it_exchange_prod .entry-title {
+	font-size: 2em;
+	margin-bottom: .5em;
+}
+
+/* Price */
+#it-exchange-product .it-exchange-product-price {
+	font-size: 2em;
+	line-height: 1;
+	border: 0;
+	margin-bottom: 1em;
+	margin-top: 0;
+}
+#it-exchange-product .it-exchange-product-price p {
+	padding: 0;
+	font-weight: bold;
+}
+
+/* Product Image Wrapper */
+#it-exchange-product .it-exchange-product-images .it-exchange-column-inner {
+	margin-left: 3em;
+}
+
+#it-exchange-product .it-exchange-product-images-gallery img {
+	margin: 0 auto;
+}
+
+/* Product Top Content Wrapper */
+#it-exchange-product .it-exchange-product-standard-content {
+	margin-bottom: 4em;
+}
+/* Product Bottom Extended Description */
+#it-exchange-product .it-exchange-extended-description {
+	padding-top: 3em;
+}
+
+
+/*********************************************
+	Super Widget
+*********************************************/
+
+#it-exchange-product .it-exchange-super-widget {
+	color: #6B747A;
+	max-width: 460px;
+}
+
+#it-exchange-product .it-exchange-super-widget .it-exchange-sw-product,
+#it-exchange-product .it-exchange-super-widget .it-exchange-sw-processing {
+	border: 0;
+}
+
+#it-exchange-product .it-exchange-super-widget .it-exchange-sw-product .purchase-options {
+	padding: 0;
+}
+
+/*
+.widget_it-exchange-super-widget .it-exchange-super-widget .cart-actions-wrapper .cart-action {
+	float: none;
+	padding: .5em 1em;
+}
+
+.widget_it-exchange-super-widget .it-exchange-super-widget .two-actions .cart-action {
+	width: 100%;
+}
+*/
+
+.widget_it-exchange-super-widget .it-exchange-super-widget input[type="submit"],  .widget_it-exchange-super-widget .it-exchange-super-widget .cart-actions-wrapper a {
+	word-break: break-word;
+}
+
+.widget_it-exchange-super-widget .it-exchange-super-widget,  .widget_it-exchange-super-widget .it-exchange-super-widget h3 {
+	color: #676767;
+}
+ 
+.widget_it-exchange-super-widget .it-exchange-super-widget .cart-items-wrapper {
+	background: #FFF;
+}
+
+.widget_it-exchange-super-widget .it-exchange-super-widget .it-exchange-sw-product, .widget_it-exchange-super-widget .it-exchange-super-widget .it-exchange-sw-processing {
+	border-color: #EBEBEB;
+}
+
+.widget_it-exchange-super-widget .it-exchange-super-widget .cart-items-wrapper .cart-item {
+	border-bottom: 1px solid #EBEBEB;
+}
+
+.widget_it-exchange-super-widget .it-exchange-super-widget .cart-items-wrapper .cart-item a {
+	font-size: 1.5em;
+}
+
+.widget_it-exchange-super-widget .it-exchange-super-widget .two-actions .cart-action a {
+	font-weight: bold;
+	font-size: 1em;
+	cursor: pointer;
+	display: inline-block;
+	background: transparent;
+	color: #A9ADB1;
+	padding: .5em 1em;
+	border: 2px solid #A9ADB1;
+	border-radius: 5px;
+	-webkit-appearance: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+}
+
+.widget_it-exchange-super-widget .it-exchange-super-widget .two-actions .cart-action:hover a, .widget_it-exchange-super-widget .it-exchange-super-widget .two-actions .cart-action:focus a {
+ 	background: #A9ADB1;
+	color: #FFF;
+	text-decoration: none;
+ }
+ 
+ .widget_it-exchange-super-widget .it-exchange-super-widget .two-actions .cart-action:first-child {
+	 border-right: inherit;
+ }
+
+.widget_it-exchange-super-widget .it-exchange-super-widget .two-actions .cart-action a {
+	display: block;
+}
+
+.it-exchange-super-widget .it-exchange-sw-product .buy-now-button, .it-exchange-super-widget .it-exchange-sw-product .add-to-cart-button, .it-exchange-super-widget .payment-methods-wrapper input[type="submit"] {
+	margin: .25em 0;
+}
+
+.widget_it-exchange-super-widget .it-exchange-super-widget .two-actions .cart-action.add-coupon a, .widget_it-exchange-super-widget .it-exchange-super-widget .two-actions .cart-action.update-quantity a{
+	background: #FFF;
+	color: #A9ADB1;
+	border-color: #A9ADB1;
+}
+
+.widget_it-exchange-super-widget .it-exchange-super-widget .cart-action.cancel-update a, .it-exchange-sw-cancel-login-link, .it-exchange-sw-cancel-guest-checkout-link, #it-exchange-product .it-exchange-super-widget .cart-actions-wrapper .cart-action.cancel-update a, .it-exchange-billing-address-requirement-cancel, .it-exchange-shipping-address-requirement-cancel {
+	color: #E8300F;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	float: left;
+	font-size: 14px;
+	border: none;
+}
+
+.it-exchange-super-widget .cart-actions-wrapper .cancel-update {
+	border-bottom: none !important;
+}
+
+.widget_it-exchange-super-widget .it-exchange-super-widget .cart-action.cancel-update a:hover,
+.widget_it-exchange-super-widget .it-exchange-super-widget .cart-action.cancel-update a:focus,
+.it-exchange-sw-cancel-login-link:hover,
+.it-exchange-sw-cancel-login-link:focus,
+.it-exchange-sw-cancel-guest-checkout-link:hover,
+.it-exchange-sw-cancel-guest-checkout-link:focus,
+#it-exchange-product .it-exchange-super-widget .cart-actions-wrapper .cart-action.cancel-update a:hover,
+#it-exchange-product .it-exchange-super-widget .cart-actions-wrapper .cart-action.cancel-update a:focus {
+	background: none;
+	color: #E57B68;
+}
+
+/* Purchase Buttons */
+#it-exchange-product .it-exchange-super-widget .purchase-options input[type="submit"] {
+	float: left;
+	max-width: 150px;
+	margin: 0 10px 1em 0;
+}
+
+/* Cart Wrapper */
+#it-exchange-product .it-exchange-super-widget .cart-items-wrapper {
+	background: #FFFFFF;
+	border: 2px solid #EBEBEB;
+}
+
+/* Cart Item */
+.it-exchange-super-widget .cart-items-wrapper .cart-item {
+	position: relative;
+}
+.it-exchange-super-widget .cart-items-wrapper .cart-item .title-remove {
+	color: #4A545A;
+	font-weight: bold;
+	font-size: 1.25em;
+	max-width: 85%;
+	line-height: 1.2;
+}
+.it-exchange-super-widget .cart-items-wrapper .cart-item a { /* Remove (X) Button */
+	line-height: 1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: .5em;
+	font-size: 1.5em;
+	color: #E8300F;
+}
+
+.it-exchange-super-widget .cart-items-wrapper .cart-item a:hover, .it-exchange-super-widget .cart-items-wrapper .cart-item a:focus {
+	color: #777;
+}
+
+#it-exchange-product .it-exchange-super-widget .cart-items-wrapper .cart-item .item-info {
+	margin-top: .25em;
+}
+
+/* Billing Address in Super Widget */
+.it-exchange-super-widget .cart-billing-address-existing strong {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: .8em;
+}
+
+/* Quantity Picker Box in Super Widget */
+.it-exchange-super-widget input[type="number"] {
+	padding: .25em;
+}
+
+/* Quantity Selection/View */
+.it-exchange-super-widget .quantity {
+	text-align: center;
+}
+.it-exchange-super-widget .quantity input[type="submit"] {
+	margin-bottom: 0;
+}
+
+/* Coupon Sections */
+
+.it-exchange-super-widget .coupon .apply-coupon {
+	width: 100%;
+	margin-bottom: .5em;
+}
+.it-exchange-super-widget .coupons-wrapper input[type="submit"], .it-exchange-super-widget .quantity input {
+	width: 100%;
+	max-width: inherit;
+	margin: 0;
+}
+
+#it-exchange-product .it-exchange-super-widget .cart-actions-wrapper {
+	border: 2px solid #EBEBEB;
+	padding: 2em;
+	border-top: none;
+}
+
+/* View Cart/Checkout Buttons */
+
+#it-exchange-product .it-exchange-super-widget .cart-actions-wrapper .cart-action {
+	padding: 0;
+}
+
+.it-exchange-super-widget .two-actions .cart-action:first-child {
+	border-right: none !important;
+}
+
+/*
+#it-exchange-product .it-exchange-super-widget .cart-actions-wrapper .cart-action a {
+	display: block;
+	background: transparent;
+	color: #4A90E2;
+	font-weight: bold;
+	padding: .5em 1em;
+	border-radius: 5px;
+	border: 2px solid #4A90E2;
+	text-transform: uppercase;
+	transition: all 0.2s ease-in 0s;
+}
+
+#it-exchange-product .it-exchange-super-widget .cart-actions-wrapper .cart-action a:hover,
+#it-exchange-product .it-exchange-super-widget .cart-actions-wrapper .cart-action a:focus {
+	background: #4A90E2;
+	color: #FFF;
+}
+*/
+
+#it-exchange-product .it-exchange-super-widget .two-actions .cart-action:first-child a {
+    margin-right: 10px;
+}
+
+#it-exchange-product .it-exchange-super-widget .two-actions .cart-action:last-child a {
+    margin-left: 10px;
+}
+
+#it-exchange-product .it-exchange-super-widget .payment-methods-wrapper form input[type="submit"] {
+	margin-bottom: 1em;
+}
+#it-exchange-product .it-exchange-super-widget .payment-methods-wrapper form:last-child input[type="submit"] {
+	margin-bottom: 0;
+}
+
+.it-exchange-super-widget .payment-methods-wrapper, .it-exchange-super-widget .coupon, .it-exchange-super-widget .quantity {
+	text-align: center;
+	border: 2px solid #EBEBEB;
+	border-top: none;
+	border-bottom: 2px solid #EBEBEB !important;
+}
+
+/* Item Count */
+#it-exchange-product .it-exchange-super-widget .item-count {
+	text-align: left;
+	padding: 0;
+	border: 0;
+	margin-bottom: 1em;
+}
+
+/* Cart Totals Row */
+.it-exchange-super-widget .cart-items-wrapper .cart-totals-row strong {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: .8em;
+}
+
+/* Guest Checkout in Super Widget */
+#it-exchange-product .it-exchange-super-widget .it-exchange-sw-processing-guest-checkout {
+	padding: 0;
+}
+input.it-exchange-guest-checkout-save-link {
+	font-size: 1.25em;
+}
+
+/* Billing Info in Super Widget */
+.it-exchange-address2 {
+	margin-top: .5em;
+}
+
+/* Account Creation/Registration in Super Widget */
+#it-exchange-product .it-exchange-super-widget .it-exchange-sw-processing-registration {
+	padding: 0;
+}
+#it-exchange-product .it-exchange-super-widget .it-exchange-sw-register input#it-exchange-register-customer { /* Register Button */
+	font-size: 1.25em;
+}
+.it-exchange-sw-processing-registration input[type="button"] { /* All Buttons in Registration Section */
+	margin: 0 0 .5em 0;
+}
+#it-exchange-product .it-exchange-super-widget .it-exchange-sw-register div.cancel_url {
+	margin: 0;
+	line-height: 1;
+}
+#it-exchange-product .it-exchange-super-widget .it-exchange-sw-processing-registration .it-exchange-guest-checkout-link {
+	margin: 0;
+	line-height: 1;
+}
+a.it-exchange-sw-cancel-login-link {
+	margin-top: 2em;
+	display: inline-block;
+}
+
+/* Login to Account Section in Super Widget */
+#it-exchange-product .it-exchange-super-widget .it-exchange-sw-processing-login {
+	padding: 0;
+}
+#it-exchange-product .it-exchange-super-widget .it-exchange-sw-processing-login input[type="submit"] {
+	font-size: 1.25em;
+	margin: 1em 0 0 0;
+}
+#it-exchange-product .it-exchange-super-widget .it-exchange-sw-processing-login input[type="button"] {
+	margin: 0 0 .5em 0;
+}
+#it-exchange-product .it-exchange-super-widget .it-exchange-sw-log-in .it-exchange-register-url {
+	margin: 0;
+}
+#it-exchange-product .it-exchange-super-widget .it-exchange-sw-processing-login .it-exchange-recover-url {
+	margin: 0;
+}
+#it-exchange-product .it-exchange-sw-log-in .cancel_url {
+	margin: 0;
+}
+
+/* Shipping Method Selection */
+.it-exchange-super-widget .it-exchange-checkout-shipping-method-purchase-requirement {
+	border: 1px solid #EBEBEB;
+}
+
+
+/*********************************************
+	Cart Page
+*********************************************/
+
+/* Cart Thumbnails Cell */
+#it-exchange-cart .it-exchange-cart-item-thumbnail.it-exchange-table-column {
+	padding: 0;
+}
+/* Cart Thumbnails */
+#it-exchange-cart .it-exchange-cart-item-thumbnail img {
+	margin: 0;
+}
+
+/* Cart Cells */
+#it-exchange-cart .it-exchange-table-column {
+	border: 2px solid #EBEBEB;
+	padding: 0;
+}
+
+/* Item Subtotal Cell */
+#it-exchange-cart .it-exchange-cart-item-subtotal {
+	text-align: left;
+}
+
+/* Item Remove Cell */
+#it-exchange-cart .it-exchange-cart-item-remove {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+#it-exchange-cart .it-exchange-cart-item-remove a {
+	color: red;
+	vertical-align: middle;
+	font-size: .8em;
+}
+
+#it-exchange-cart .it-exchange-cart-item-remove a:hover, #it-exchange-cart .it-exchange-cart-item-remove a:focus {
+	color: #777;
+}
+
+
+/* Cart Action Buttons (Update, Remove, Continue Shopping) */
+.wip-it-exchange-cart-items-actions {
+	padding: 1em ;
+	border: 0;
+}
+.wip-it-exchange-cart-items-actions input[type="submit"] {
+	margin-bottom: .5em;
+	float: right;
+}
+.wip-it-exchange-cart-items-actions input.it-exchange-empty-cart {
+	margin-left: .5em;
+}
+.wip-it-exchange-cart-items-actions input.it-exchange-update-cart {
+
+}
+.wip-it-exchange-cart-items-actions input.it-exchange-continue-shopping {
+	float: left;
+}
+
+
+
+/* Totals Table */
+#it-exchange-cart-totals {
+	width: 50%;
+	margin: 3em 0 1em 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: right;
+}
+#it-exchange-cart-totals .it-exchange-table-column {
+	border: 1px solid #EBEBEB;
+	font-size: .9em;
+	padding: 10px 20px;
+}
+#it-exchange-cart-totals .it-exchange-cart-totals-title {
+	width: 60%;
+}
+#it-exchange-cart-totals .it-exchange-table-column-inner {
+	padding: 0;
+}
+#it-exchange-cart .it-exchange-table-row.it-exchange-cart-totals-total {
+	background: #EBEBEB;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+#it-exchange-cart-totals .it-exchange-cart-totals-total .it-exchange-table-column-inner {
+	padding: 0;
+	border-bottom: 0;
+}
+#it-exchange-cart-totals .it-exchange-cart-totals-total .it-exchange-cart-totals-title {
+	border-right: 1px solid #DADADA;
+}
+
+/* Cart Coupons Section */
+.it-exchange-cart-apply-coupons input.apply-coupon {
+	margin-bottom: .5em;
+}
+.it-exchange-cart-apply-coupons .it-exchange-update-cart {
+	border-color: #4A90E2;
+	color: #4A90E2;
+	display: inline-block;
+}
+.it-exchange-cart-apply-coupons .it-exchange-update-cart:hover,
+.it-exchange-cart-apply-coupons .it-exchange-update-cart:focus {
+	background: #4A90E2;
+	color: #FFF:
+}
+
+/* Checkout Button */
+#it-exchange-cart .it-exchange-checkout-cart {
+	font-size: 1.5em;
+	margin-top: 1.5em;
+}
+
+
+/*********************************************
+	Checkout Page
+*********************************************/
+
+.it-exchange-checkout h3 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 1.25em;
+}
+
+/* Guest Checkout email form */
+.it-exchange-checkout .it-exchange-guest-checkout-form-wrapper {
+	background: #FFFFFF;
+	padding: 1.5em;
+	width: 60%;
+	border-width: 3px;
+}
+.it-exchange-checkout .it-exchange-guest-checkout-form-wrapper h3 {
+	margin-bottom: 1em;
+}
+.it-exchange-checkout .it-exchange-guest-checkout-form-wrapper .email-name.it-exchange-left,
+.it-exchange-checkout .it-exchange-guest-checkout-form-wrapper .it-exchange-guest-checkout-email {
+	float: none;
+	width: 100%;
+}
+.it-exchange-checkout .it-exchange-guest-checkout-form-wrapper div input[type="submit"] {
+	margin: .5em 0 0 0;
+}
+.it-exchange-checkout .it-exchange-content-checkout-logged-in-purchase-requirement-links .it-exchange-login-requirement-registration input[type="button"],
+.it-exchange-checkout .it-exchange-content-checkout-logged-in-purchase-requirement-links .it-exchange-login-requirement-login input[type="button"] {
+	margin-bottom: 0;
+}
+
+/* Logged in as... Section */
+.it-exchange-checkout .it-exchange-checkout-logged-in-purchase-requirement {
+	background: #EBEBEB;
+	padding: 1em 1.5em;
+	border: 2px solid #E5E5E5;
+	border-radius: 3px;
+	font-size: 1.125em;
+	margin: 0 0 3em 0;
+}
+
+/* Purchase Requirements Notification */
+.it-exchange-checkout-purchase-requirements-notification {
+	margin-bottom: 3.5em;
+}
+
+/* Billing Address Section */
+.it-exchange-checkout .it-exchange-checkout-billing-address-purchase-requirement {
+	margin-bottom: 4em;
+}
+.it-exchange-checkout .it-exchange-checkout-billing-address-purchase-requirement h3 {
+	margin-bottom: .5em;
+}
+
+
+/* Multiple Shipping Options */
+
+.it-exchange-checkout .it-exchange-itemized-checkout-method .it-exchange-right {
+	float: none;
+}
+
+/* Edit Cart Section */
+.it-exchange-checkout .it-exchange-checkout_cancel {
+	margin: 0;
+}
+.it-exchange-checkout .it-exchange-checkout_cancel .it-exchange-cancel-checkout {
+	float: right;
+}
+.it-exchange-checkout .it-exchange-checkout_cancel .it-exchange-cancel-checkout:hover,
+.it-exchange-checkout .it-exchange-checkout_cancel .it-exchange-cancel-checkout:focus {
+
+}
+
+/* Payment Buttons */
+.it-exchange-checkout-transaction-methods form input[type="submit"] {
+	font-size: 1.5em;
+	margin: 0;
+	margin-top: .5em;
+}
+
+
+
+/*********************************************
+	Confirmation/Thank You Page
+*********************************************/
+
+
+#it-exchange-confirmation h3 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 1.125em;
+	margin-bottom: .5em
+}
+
+/* Customer Menu */
+#it-exchange-confirmation .it-exchange-customer-menu {
+	margin-left: 0;
+}
+
+/* Order Status */
+#it-exchange-confirmation .it-exchange-transaction-status .paid {
+	background: #6BC43F;
+	padding: .1em .5em;
+	border-radius: 2px;
+	color: #D0FCBB;
+}
+
+/* Transaction Meta */
+#it-exchange-confirmation .it-exchange-transaction-meta p {
+	margin: 0;
+}
+#it-exchange-confirmation .it-exchange-transaction-instructions {
+	margin: 2em 0 4em 0;
+}
+#it-exchange-confirmation .it-exchange-transaction-meta .it-exchange-columns-wrapper {
+	margin-bottom: 3em;
+}
+
+/* List of Products */
+.it-exchange-transaction-products img {
+	margin: 0;
+	border: 1px solid #EBEBEB;
+}
+#it-exchange-confirmation .it-exchange-transaction-product-details h3 {
+	float: none;
+	margin: 0;
+	text-transform: none;
+	font-weight: normal;
+	font-size: 1.5em;
+	letter-spacing: 0;
+}
+
+/* Downloads list */
+#it-exchange-downloads .it-exchange-download-info {
+	width: 73%;
+	padding-right: 7%;
+}
+
+.it-exchange-transaction-product-downloads {
+	margin-top: 2em;
+}
+#it-exchange-confirmation .it-exchange-transaction-product-downloads h4 {
+	margin-bottom: 1em;
+	padding-bottom: .25em;
+	border-bottom: 2px solid #EBEBEB;
+}
+#it-exchange-confirmation .it-exchange-transaction-product-downloads-list li {
+	margin: 0 0 2em 0;
+}
+#it-exchange-confirmation .it-exchange-transaction-product-details .it-exchange-featured-image {
+	margin-bottom: .5em;
+}
+#it-exchange-confirmation .it-exchange-transaction-product-download-title {
+	float: none;
+	display: block;
+	margin-bottom: .5em;
+}
+#it-exchange-confirmation .it-exchange-transaction-product-downloads .it-exchange-right {
+	float: none;
+	display: block;
+}
+#it-exchange-confirmation .it-exchange-transaction-product-cart-object .it-exchange-right {
+	float: none;
+	display: block;
+}
+#it-exchange-confirmation .it-exchange-transaction-product-cart-object .it-exchange-column-inner {
+	padding: 23px 20px;
+	text-align: center;
+}
+
+/* Totals Table on Confirmation Page */
+#it-exchange-confirmation .it-exchange-transaction-summary-loop {
+	border-collapse: separate;
+	width: 70%;
+	margin-top: 3em;
+}
+#it-exchange-confirmation .it-exchange-transaction-summary-loop .it-exchange-table-row:nth-child(odd) {
+	background: #EBEBEB;
+}
+#it-exchange-confirmation .it-exchange-transaction-summary-loop .it-exchange-table-column-inner {
+	padding: 10px;
+}
+#it-exchange-confirmation .it-exchange-transaction-summary-loop .it-exchange-confirmation-totals-title {
+    border-right: 1px solid #DDDDDD;
+    text-align: right;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+#it-exchange-confirmation .it-exchange-transaction-summary-loop .it-exchange-cart-totals-total .it-exchange-table-column-inner {
+	padding: 10px;
+}
+
+/*********************************************
+	Account - Global
+*********************************************/
+
+.it-exchange-account .it-exchange-customer-menu {
+	margin-bottom: 4em;
+	border-top: 2px solid #EBEBEB;
+	border-bottom: 2px solid #EBEBEB;
+	padding: 1em 0;
+}
+.it-exchange-account .it-exchange-customer-menu a {
+
+}
+
+/*********************************************
+	Account - Purchases Page
+*********************************************/
+
+body #it-exchange-purchases .it-exchange-purchase-items .it-exchange-item-data div {
+	margin-left: 0;
+}
+body #it-exchange-purchases .it-exchange-purchase-items .it-exchange-item-thumbnail {
+	width: 20%;
+}
+body #it-exchange-purchases .it-exchange-purchase-items .it-exchange-item-thumbnail .it-exchange-featured-image {
+	margin-right: 40px;
+	position: relative;
+	top: 5px;
+}
+body #it-exchange-purchases .it-exchange-purchase-items .it-exchange-item-data .it-exchange-item-title {
+	font-size: 1.25em;
+}
+body #it-exchange-purchases .it-exchange-purchase-items .it-exchange-item-data {
+	width: 80%;
+}
+body #it-exchange-purchases .it-exchange-purchase {
+	border: 1px solid #EBEBEB;
+	margin-bottom: 4em;
+	padding-bottom: 0;
+}
+body #it-exchange-purchases .it-exchange-purchase-top {
+	background: #EBEBEB;
+	padding: 1em 2em;
+	margin: 0;
+}
+body #it-exchange-purchases .it-exchange-purchase-items {
+	padding: 2em 2em 0 2em;
+	border-bottom: 1px solid #EBEBEB;
+}
+
+
+/*********************************************
+	Account - Downloads Page
+*********************************************/
+
+.it-exchange-downloads-data {
+	margin: 0;
+	list-style: none;
+}
+#it-exchange-downloads .it-exchange-download span,
+#it-exchange-downloads .it-exchange-download code {
+	margin-left: 0;
+	display: block;
+	color: inherit;
+	background: transparent;
+	padding: 0;
+}
+#it-exchange-downloads .it-exchange-download-info span + span {
+	margin-left: 0;
+}
+
+#it-exchange-downloads .it-exchange-download-product a {
+	color: #A9ADB3;
+	border-color: #A9ADB3;
+}
+#it-exchange-downloads .it-exchange-download-product a:hover {
+	background: #A9ADB3;
+	color: #FFF;
+}
+#it-exchange-downloads .it-exchange-download {
+	border-bottom: 1px solid #EBEBEB;
+	margin-bottom: 3em;
+	padding-bottom: 2em;
+}
+#it-exchange-downloads .it-exchange-download:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+
+/*********************************************
+	Membership
+*********************************************/
+
+/* Grid of Content */
+body .it-exchange-membership-membership-content .it-exchange-content-grid li,
+body .it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid ul li,
+body .it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid ul li {
+	margin-bottom: 0;
+	width: 100%;
+}
+body .it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-content-item-info .it-exchange-group-content-label,
+body .it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-group-content-label,
+body .it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-content-item-info .it-exchange-group-content-label {
+	line-height: 1.1;
+}
+
+body .it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-item-icon, 
+body .it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-content-item-icon, 
+body .it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-content-item-icon {
+	width: 15%;
+}
+
+body .it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-item-info, 
+body .it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-content-item-info, 
+body .it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-content-item-info {
+	width: 85%;
+}
+
+body .it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-item-icon, 
+body .it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-item-icon {
+	background-color: #4A90E2;
+}
+
+body .it-exchange-membership-membership-content .it-exchange-content-group.it-exchange-content-single p {
+	line-height: 85px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+body .it-exchange-membership-membership-content .it-exchange-content-group-layout-list .it-exchange-content-single p {
+	font-size: 1em;
+	line-height: 1.1;
+}
+
+
+/* Dropdown with Grouped Content */
+body .it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid,
+body .it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid {
+	border: 2px solid #EBEBEB;
+	padding: 1em;
+	background: #F5F5F5;
+}
+body .it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-group-content-label,
+body .it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-group-content-label {
+	padding: 0;
+	font-weight: normal;
+}
+body .it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-group-content-label,
+body .it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-group-content-label {
+	font-weight: normal;
+}
+body .it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-grid .it-exchange-group-title,
+body .it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-grid .it-exchange-group-title {
+	border: 1px solid #EBEBEB;
+	background: #FFFFFF;
+	padding: 5px 10px;
+	font-size: 1.15em;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+body .it-exchange-membership-membership-content .it-exchange-content-group ul {
+	margin: 2em 0 0 0;
+}
+body .it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group {
+	margin-bottom: 1em;
+	border: 2px solid #EBEBEB;
+	background: #F5F5F5;
+}
+body .it-exchange-membership-membership-content .it-exchange-content-group-layout-list .it-exchange-content-group {
+	margin-left: 1em;
+	margin-right: 1em;
+	background: #FFFFFF;
+}
+body .it-exchange-membership-membership-content .it-exchange-content-group-layout-list ul {
+	margin-top: 0;
+}
+body .it-exchange-membership-membership-content .it-exchange-content-group-layout-list .it-exchange-group-content-label {
+	margin-bottom: 0;
+}
+/* Titles for Single Line Items */
+body .it-exchange-membership-membership-content .it-exchange-content-grid .it-exchange-content-group-layout-list .it-exchange-group-content-label,
+body .it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group-layout-list .it-exchange-group-content-label,
+body .it-exchange-membership-membership-content .it-exchange-content-list .it-exchange-content-group .it-exchange-group-content-label {
+	font-weight: normal;
+}
+
+/* Invoice Page Styles */
+.entry-content h3.customer-invoices-subheading, h3.customer-invoices-subheading {
+	text-decoration: inherit;
+	margin-bottom: inherit;
+	font-weight: inherit;
+}
+
+.it-exchange-print-invoice-link {
+	text-decoration: none;
+	margin-bottom: 1em;
+}
+
+.it-exchange-print-invoice-link:hover,
+.it-exchange-print-invoice-link:focus {
+	text-decoration: none;
+}
+
+.it-exchange-invoice-section.it-exchange-invoice-header {
+	border: none;
+}
+
+.it-exchange-invoice-section {
+	border-width: 0 2px 2px 2px;
+	border-color: #EBEBEB;	
+}
+
+.it-exchange-invoice-sw .it-exchange-super-widget {
+	margin-top: 0;
+}
+
+.it-exchange-invoice-sw .it-exchange-super-widget .it-exchange-sw-processing {
+	border: none;
+	border-top: 2px soild #EBEBEB;
+}
+
+
+
+/* Alternate Button Styles */
+input.add-to-cart-button, 
+input.it-exchange-update-cart, 
+input.it-exchange-empty-cart,
+.it-exchange-super-widget .cart-actions-wrapper .cart-action a,
+.it-exchange-super-widget .it-exchange-sw-register-link input,
+.it-exchange-super-widget .guest-checkout .it-exchange-sw-cancel-register-link input,
+.it-exchange-super-widget .it-exchange-sw-register .it-exchange-sw-cancel-register-link input,
+.it-exchange-super-widget .it-exchange-guest-checkout-link input,
+.it-exchange-download-now a,
+.it-exchange-print-invoice-link,
+.it-exchange-invoice-summary a,
+.it-exchange-checkout .it-exchange-checkout_cancel .it-exchange-cancel-checkout {
+	display: block;
+	background: transparent;
+	font-weight: bold;
+	padding: .5em 1em;
+	border-radius: 5px;
+	border: 2px solid #A9ADB1;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: all 0.2s ease-in 0s;
+	color: #A9ADB1;
+}
+
+input.add-to-cart-button:hover,
+input.add-to-cart-button:focus,
+input.it-exchange-update-cart:hover,
+input.it-exchange-update-cart:focus,
+input.it-exchange-empty-cart:hover,
+input.it-exchange-empty-cart:focus,
+.it-exchange-super-widget .cart-actions-wrapper .cart-action a:hover,
+.it-exchange-super-widget .cart-actions-wrapper .cart-action a:focus,
+.it-exchange-super-widget .it-exchange-sw-register-link input:hover,
+.it-exchange-super-widget .it-exchange-sw-register-link input:focus,
+.it-exchange-super-widget .guest-checkout .it-exchange-sw-cancel-register-link input:hover,
+.it-exchange-super-widget .guest-checkout .it-exchange-sw-cancel-register-link input:focus,
+.it-exchange-super-widget .it-exchange-sw-register .it-exchange-sw-cancel-register-link input:hover,
+.it-exchange-super-widget .it-exchange-sw-register .it-exchange-sw-cancel-register-link input:focus,
+.it-exchange-super-widget .it-exchange-guest-checkout-link input:hover,
+.it-exchange-super-widget .it-exchange-guest-checkout-link input:focus,
+.it-exchange-super-widget .two-actions .cart-action.add-coupon a:hover, 
+.it-exchange-super-widget .two-actions .cart-action.update-quantity a:hover, 
+.it-exchange-super-widget .two-actions .cart-action.add-coupon a:focus, 
+.it-exchange-super-widget .two-actions .cart-action.update-quantity a:focus,
+.it-exchange-print-invoice-link:hover,
+.it-exchange-print-invoice-link:focus,
+.it-exchange-invoice-summary a:hover,
+.it-exchange-invoice-summary a:focus,
+.it-exchange-checkout .it-exchange-checkout_cancel .it-exchange-cancel-checkout:hover,
+.it-exchange-checkout .it-exchange-checkout_cancel .it-exchange-cancel-checkout:focus,
+#it-exchange-downloads .it-exchange-download-product a:hover,
+#it-exchange-downloads .it-exchange-download-product a:focus {
+	background: #A9ADB1;
+	color: #FFF;
+}
+
+.it-exchange-download-now a{
+	margin: 1em 0 0;
+	display: inline-block;
+	color: #4A90E2;
+	border-color: #4A90E2;
+}
+
+.it-exchange-invoice-summary a {
+	display: inline-block;
+	font-size: .8em;
+	padding: .4em .8em;
+}
+
+.it-exchange-download-now a:hover, .it-exchange-download-now a:focus {
+	background: #4A90E2;
+	color: #FFF;
+}
+
+/* Messages */
+.it-exchange-super-widget .it-exchange-messages {
+	margin: 0 0 1em !important;
+}
+
+/* Clearfix for items in exchange that should have clearfix */
+ .it-exchange-sw-processing:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+ }
+/*********************************************
+	Media Queries for Exchange
+*********************************************/
+
+
+@media only screen and ( max-width:840px ) {
+
+	/* Store Page */
+	#it-exchange-store .it-exchange-products li:nth-child(n) {
+		list-style: none;
+		display: block;
+		float: left;
+		width: 45%;
+		margin: 0 5% 5em 0;
+		vertical-align: top;
+		clear: none;
+	}
+	#it-exchange-store .it-exchange-products li:nth-child(2n+1) {
+		clear: both;
+	}
+	#it-exchange-store .it-exchange-products li:nth-child(2n+2) {
+		margin-right: 0;
+		clear: none;
+	}
+
+
+	/* Cart */
+
+	#it-exchange-cart .it-exchange-table-column {
+		padding: 10px;
+	}
+	.wip-it-exchange-cart-items-actions input.it-exchange-empty-cart {
+		margin-left: 0;
+		margin-bottom: .5em;
+	}
+	.wip-it-exchange-cart-items-actions input.it-exchange-update-cart {
+		clear: both;
+	}
+
+	#it-exchange-cart .it-exchange-cart-item-title {
+		width: 35%;
+	}
+
+}
+
+@media only screen and ( max-width:600px ) {
+
+	/* Store Page */
+	#it-exchange-store .it-exchange-products li:nth-child(n) {
+		list-style: none;
+		display: block;
+		float: left;
+		width: 100%;
+		margin: 0 0 5em 0;
+		vertical-align: top;
+		clear: both;
+	}
+
+	/* Cart Items Table */
+	#it-exchange-cart-items.it-exchange-table {
+		border: none;
+	}
+
+	/* Cart Items Table Row */
+	#it-exchange-cart #it-exchange-cart-items .it-exchange-table-row {
+		border: 3px solid #EBEBEB;
+		display: block;
+		margin: 0 0 1em 0;
+		padding: .5em;
+		position: relative;
+	}
+
+	/* Cart Items Image Thumbnail Cell */
+	#it-exchange-cart #it-exchange-cart-items .it-exchange-cart-item-thumbnail.it-exchange-table-column {
+		display: none;
+	}
+
+	#it-exchange-cart #it-exchange-cart-items .it-exchange-table-column {
+		display: inline-block;
+		border: 0;
+		width: 25%;
+	}
+	#it-exchange-cart #it-exchange-cart-items .it-exchange-cart-item-title.it-exchange-table-column {
+		display: block;
+		width: 100%;
+		max-width: 75%;
+		font-size: 1.25em;
+		line-height: 1.15;
+	}
+	#it-exchange-cart #it-exchange-cart-items .it-exchange-table-column-inner {
+		padding: 0;
+	}
+	#it-exchange-cart #it-exchange-cart-items .it-exchange-cart-item-quantity input.product-cart-quantity {
+		padding: .25em;
+	}
+	#it-exchange-cart #it-exchange-cart-items .it-exchange-table-column.cart-remove {
+		width: 13%;
+		float: right;
+		position: absolute;
+		top: 6px;
+		right: 6px;
+	}
+	#it-exchange-cart #it-exchange-cart-items .it-exchange-cart-item-remove a {
+		position: relative;
+		top: -2px;
+	}
+	.wip-it-exchange-cart-items-actions input.it-exchange-continue-shopping {
+		margin-bottom: 2em;
+		margin-left: 0;
+	}
+	.wip-it-exchange-cart-items-actions input.it-exchange-empty-cart {
+		float: left;
+		clear: both;
+	}
+	.wip-it-exchange-cart-items-actions input.it-exchange-update-cart {
+		float: left;
+		clear: both;
+		margin-left: 0;
+	}
+	#it-exchange-cart-totals {
+		width: 100%;
+	}
+	#it-exchange-cart #it-exchange-cart-totals .it-exchange-table-column {
+		padding: 10px 15px;
+	}
+	#it-exchange-cart-totals .it-exchange-cart-totals-title {
+		width: 65%;
+	}
+	.it-exchange-cart-apply-coupons input.apply-coupon {
+		right: 0;
+		margin-bottom: .5em;
+	}
+
+
+
+	/* Checkout Page */
+	#it-exchange-cart.it-exchange-checkout #it-exchange-cart-items .it-exchange-table-row {
+		padding: 0;
+	}
+	#it-exchange-cart.it-exchange-checkout #it-exchange-cart-items .it-exchange-cart-item-title.it-exchange-table-column {
+		width: 100% !important;
+		max-width: 100%;
+		border-bottom: 2px solid #EBEBEB;
+	}
+	#it-exchange-cart.it-exchange-checkout #it-exchange-cart-items .it-exchange-table-column.it-exchange-cart-item-quantity,
+	#it-exchange-cart.it-exchange-checkout #it-exchange-cart-items .it-exchange-table-column.it-exchange-cart-item-subtotal {
+		border-right: 2px solid #EBEBEB;
+		text-align: center;
+	}
+
+
+	/* Confirmation Page */
+
+	#it-exchange-confirmation .it-exchange-transaction-product-details .it-exchange-featured-image {
+		margin-right: 0;
+	}
+
+	#it-exchange-confirmation .it-exchange-confirmation-billing-address-purchase-requirement,
+	#it-exchange-confirmation .it-exchange-confirmation-shipping-address-purchase-requirement {
+		width: 100%;
+	}
+	#it-exchange-confirmation .it-exchange-confirmation-shipping-address-purchase-requirement {
+		margin-top: 2em;
+	}
+
+	.it-exchange-transaction-products img {
+		display: none;
+	}
+	#it-exchange-confirmation .it-exchange-transaction-product-cart-object .it-exchange-column-inner {
+		text-align: center;
+	}
+	#it-exchange-confirmation .it-exchange-transaction-product-cart-object .it-exchange-column-inner .it-exchange-right {
+		display: block;
+		float: none;
+	}
+
+
+	/* Account - Purchases */
+
+	body #it-exchange-purchases .it-exchange-purchase-items .it-exchange-item-thumbnail {
+		display: none;
+	}
+	body #it-exchange-purchases .it-exchange-purchase-items .it-exchange-item-data {
+		width: 100%;
+	}
+
+	/* Account - Downloads */
+	#it-exchange-downloads .it-exchange-download-product, #it-exchange-downloads .it-exchange-download-info {
+		width: 100%;
+		float: left;
+	}
+	#it-exchange-downloads .it-exchange-download-product a {
+		float: left;
+	}
+
+}

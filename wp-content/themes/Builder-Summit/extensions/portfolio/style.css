@@ -1,0 +1,34 @@
+/*
+Name: Portfolio Layout
+Description: Display's Featured Image and Post Title in a grid layout.
+*/
+
+.builder-module-content .portfolio-extension {
+	padding: 0;
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	background: transparent;
+	border: 0;
+	margin-bottom: 3em;
+}
+.builder-module-content .portfolio-extension:nth-child(3n) {
+	margin-right: 0;
+}
+.builder-module-content .portfolio-extension:nth-child(3n+1) {
+	clear: both;
+}
+.builder-module-content .portfolio-extension .it-featured-image a {
+	margin: 0;
+}
+.builder-module-content .portfolio-extension .it-featured-image img {
+	margin: 0 0 1em 0;
+}
+.builder-module-content .portfolio-extension .entry-title {
+	font-size: 1.25em;
+}
+.builder-module-content .portfolio-extension .entry-meta-wrapper {
+	margin-top: 1em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: .8em;

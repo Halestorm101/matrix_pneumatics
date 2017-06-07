@@ -1,0 +1,22 @@
+/*
+Name: Teasers Layout - Image Left
+Description: Displays Featured Image (floating left), Post Title, Post Meta & Excerpt in as teasers.
+
+*/
+
+.it-featured-image a {
+	margin-top: 0;
+}
+.entry-meta-wrapper {
+	display: block;
+}
+.has-post-thumbnail .it-featured-image {
+	float: left;
+	width: auto;
+	max-width: 25%;
+}
+.has-post-thumbnail .main-content-wrapper {
+	float: right;
+	padding-left: 5%;
+	width: 75%;
+}

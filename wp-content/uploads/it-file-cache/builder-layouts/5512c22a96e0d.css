@@ -1,0 +1,91 @@
+img, video, .wp-caption {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
+	height: auto !important;
+}
+audio {
+	max-width: 100%;
+}
+.wp-embedded-content {
+	max-width: 100%;
+}
+.builder-container-outer-wrapper {
+	width: 100%;
+}
+#ie6 .builder-module-outer-wrapper,
+#ie7 .builder-module-outer-wrapper,
+#ie8 .builder-module-outer-wrapper {
+	width: 1160px;
+}
+@media screen and (max-width: 1023px) {
+	.builder-module-background-wrapper {
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+	}
+}
+@media screen and (max-width: 1023px) {
+	.builder-module-background-wrapper {
+		padding-left: .75em;
+		padding-right: .75em;
+	}
+}
+#builder-module-589213fbc4771-outer-wrapper {
+	max-width: 1160px;
+	width: 100%;
+}
+#builder-module-589213fbc4771 .builder-module-column-1-outer-wrapper {
+	width: 100%;
+}
+#builder-module-5512c22a96dee-outer-wrapper {
+	max-width: 1160px;
+	width: 100%;
+}
+#builder-module-5512c22a96dee .builder-module-column-1-outer-wrapper {
+	width: 100%;
+}
+#builder-module-5892168f6697f-outer-wrapper {
+	max-width: 1600px;
+	width: 100%;
+}
+#builder-module-5892168f6697f .builder-module-column-1-outer-wrapper {
+	width: 100%;
+}
+#builder-module-5512c22a96df7-outer-wrapper {
+	max-width: 1160px;
+	width: 100%;
+}
+#builder-module-5512c22a96df7 .builder-module-column-1-outer-wrapper {
+	width: 100%;
+}
+#builder-module-589213fbc47d5-outer-wrapper {
+	max-width: 1160px;
+	width: 100%;
+}
+#builder-module-589213fbc47d5 .builder-module-column-1-outer-wrapper {
+	float: left !important;
+	width: 50%;
+	margin-left: 0%;
+	margin-right: -100%;
+}
+#builder-module-589213fbc47d5 .builder-module-column-2-outer-wrapper {
+	float: left !important;
+	width: 50%;
+	margin-left: 50%;
+	margin-right: -100%;
+}
+@media screen and (max-width: 400px) {
+	#builder-module-589213fbc47d5 .builder-module-column-1-outer-wrapper,
+	#builder-module-589213fbc47d5 .builder-module-column-2-outer-wrapper {
+		float: none !important;
+		width: auto;
+		margin: 0;
+	}
+	#builder-module-589213fbc47d5 .builder-module-column-1-outer-wrapper .builder-module-block,
+	#builder-module-589213fbc47d5 .builder-module-column-2-outer-wrapper .builder-module-block,
+	#builder-module-589213fbc47d5 .builder-module-column-1-outer-wrapper .widget,
+	#builder-module-589213fbc47d5 .builder-module-column-2-outer-wrapper .widget {
+		margin: 0;
+	}
+}

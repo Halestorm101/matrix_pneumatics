@@ -1,0 +1,17 @@
+/*
+Name: Featured Image Slider
+Description: Displays Featured Image & Post Title of first 6 posts in a custom slider and the Featured Imaged, Post Title & Excerpt for the remaining posts.
+*/
+
+.builder-module .bx-wrapper {
+	padding: 0 0 2em 0;
+	-moz-box-shadow: 0 0 5px #ccc;
+	-webkit-box-shadow: 0 0 5px #ccc;
+	box-shadow: 0 0 5px #ccc;
+	border:  5px solid #fff;
+	background: #fff;
+}
+.bx-wrapper h3 {
+	margin-top: .5em;
+	font-size: 2em;
+}

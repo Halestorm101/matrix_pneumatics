@@ -1,0 +1,55 @@
+0.0.3 - 2015-05-11 - James Tyler
+	Initial Commit Version
+5.0.0 - 2015-05-11 - James Tyler
+	Initial Release Version
+5.0.1 - 2015-05-11 - James Tyler
+	Updated default layouts-and-views.zip
+5.0.2 - 2015-05-28 - James Tyler
+	Updated style-mobile.css to properly account for an image as the logo in the header.
+5.0.3 - 2015-06-02 - James Tyler
+	Added missing -webkit-transform for positioning in style.css for the summit-featured-posts extension.
+5.0.4 - 2015-06-03 - James Tyler
+	Added missing -webkit-transform inside of media query for positioning in style.css for the summit-featured-posts extension.
+5.0.5 - 2015-06-05 - James Tyler
+	Applied a fix to sub menu navigation hover states so that sub-menu position is relative to it's parent li.
+5.0.6 - 2015-06-29 - Packaging Bot (lib/builder-core)
+	Security Fix: Fixed a potential Remote Code Execution (RCE) security hole caused by unsanitized inputs for resizing certain kinds of images and generating zip files. Exploiting this flaw would require third-party code or a privileged WordPress user. Thanks to Ryan Satterfield (http://planetzuda.com) for helping to identify this issue.
+	Bug Fix: Fixed index.php files being added to the root of zip files created with ITZip.
+	Enhancement: Improved the form-handling API to handle complex forms with nested groups.
+	Enhancement: Better handling of non-ASCII, non-UTF8 characters in debug output.
+5.0.7 - 2015-07-08 - Packaging Bot (lib/builder-core)
+	WordPress Compatibility: Updated widgets to no longer use PHP4-style constructors in order to be compatible with their deprecation in WordPress 4.3.
+5.0.8 - 2015-07-16 - Chris Jean
+	Bug Fix: Dropdowns with multiple levels of options now default to the current value as expected.
+	Enhancement: Updated link to iThemes support.
+5.0.9 - 2015-08-13 - James Tyler
+	Bug Fix: Corrected .entry-title from h3 to h1 tag on content-single.php and content.php
+5.0.10 - 2015-08-27 - Chris Jean
+	Updated links in footer.php to use rel="nofollow".
+5.0.11 - 2015-10-26 - Packaging Bot (lib/builder-core)
+	Compatibility Fix: Updated constructors to prevent warnings in PHP 7 while maintaining backwards compatibility.
+5.0.12 - 2015-10-27 - Packaging Bot (lib/builder-core)
+	Compatibility Fix: Additional changes to ensure PHP 7 compatibility.
+	Compatibility Fix: Added backwards-compatible code to fix compatibility with Pods/Builder integration.
+5.1.0 - 2015-11-04 - Cody Smith
+	Compatibility Fix: Updated constructors to prevent warnings in PHP 7 while maintaining backwards compatibility.
+5.1.1 - 2015-11-16 - Packaging Bot (lib/builder-core)
+	Bug Fix: Fixed URL to file path and file path to URL conversions on multisite installations where the site's absolute path may vary.
+	Enhancement: Added responsive support for WordPress 4.4's embedded content feature.
+5.1.2 - 2015-12-02 - Ronald van Weerd
+	Updated archive.php, search.php and exchange taxonomy template files to make 'page' in title translatable
+	Changed h3 to h1 for title on single.php
+5.1.3 - 2016-07-14 - Packaging Bot (lib/builder-core)
+	Compatibility Fix: Removed call to PHP function split() as it is removed in PHP 7.
+	Compatibility Fix: Updated sidebar width calculations to be PHP 7.1 compatible.
+	Compatibility Fix: Updated builder_set_minimum_memory_limit() to be PHP 7.1 compatible.
+	Bug Fix: Fixed padding around dialog pop-up overlays.
+5.1.4 - 2016-08-17 - Ronald van Weerd
+	Compatibility Fix: Renamed the_post_thumbnail_caption function to it_summit_the_post_thumbnail_caption to be WordPress 4.6 compatible
+5.1.5 - 2016-10-24 - Packaging Bot (lib/builder-core)
+	Bug Fix: Fixed a typo in error message output when certain required files cannot be found.
+	Enhancement: Removed pass-by-reference function argument on associative array check as it is no longer required. This can reduce memory usage on some servers.
+5.1.6 - 2016-12-19 - Ronald van Weerd
+	Enhancement: Removed redundant code to include a soliloquy slider in page_home.php
+5.1.8 - 2016-12-19 - Ronald van Weerd
+	Forced another version update to resolve potential issues with the 5.1.6 release.

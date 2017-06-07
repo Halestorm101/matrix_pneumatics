@@ -1,0 +1,23 @@
+/*
+Name: Featured Image Grid
+Description: Display's Featured Image in a grid layout.
+*/
+
+.builder-module-content .image-grid-extension {
+	padding: 0;
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+	background: transparent;
+	border: 0;
+	margin-bottom: 3em;
+}
+.builder-module-content .image-grid-extension:nth-child(3n) {
+	margin-right: 0;
+}
+.builder-module-content .image-grid-extension:nth-child(3n+1) {
+	clear: both;
+}
+.builder-module-content .image-grid-extension .it-featured-image img {
+	margin: 0;
+}

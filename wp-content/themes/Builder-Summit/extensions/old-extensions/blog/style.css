@@ -1,0 +1,41 @@
+/*
+Name: Blog
+*/
+.hentry {
+	background: #FFFFFF url('images/post_bg.jpg') no-repeat bottom right;
+	border-bottom: 1px solid #BBBBBB;
+	margin: 1em;
+	padding: 0 0.8em 0.8em;
+}
+.hentry .entry-header .entry-meta {
+	clear: none;
+	display: inline;
+}
+.hentry .entry-meta.date {
+	background: url('images/date.png') no-repeat;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	margin-right: 1em;
+	text-align: center;
+	width: 69px;
+	height: 75px;
+}
+.hentry .entry-meta.date .month {
+	font-size: 16px;
+	line-height: 32px;
+	text-transform: uppercase;
+}
+.hentry .entry-meta.date .day {
+	font-size: 35px;
+	line-height: 35px;
+}
+
+.hentry .entry-title {
+	clear: none;
+	margin: 1em;
+}
+.hentry .entry-footer {
+	display: block;
+	margin: 1em !important;
+}
